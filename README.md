@@ -14,6 +14,56 @@
 5. [Clustering Insights](#clustering-insights)
 6. [Conclusions](#section-5-conclusions)
 
+SYSTEM ARCHITECTURE FLOWCHART
+
+Raw Data (SQLite Database)
+    |
+    v
+Data Loading & Exploration
+    |
+    v
+Data Quality Assessment
+    |
+    v
+Preprocessing (Cleaning, Normalization)
+    |
+    +------------------+------------------+
+    |                  |                  |
+    v                  v                  v
+EDA Stream      Feature Engineering   Temporal Analysis
+    |                  |                  |
+    |                  v                  |
+    |            User Features         |
+    |            Movie Features        |
+    |                  |                  |
+    +------------------+------------------+
+                       |
+                       v
+              Clustering Analysis
+                       |
+        +--------------+--------------+
+        |              |              |
+        v              v              v
+   User Clusters  Movie Clusters  Genre Analysis
+        |              |              |
+        +--------------+--------------+
+                       |
+                       v
+         Hybrid Recommendation System
+                       |
+        +--------------+--------------+
+        |              |              |
+        v              v              v
+Collaborative    Content-Based    Cluster-Based
+Filtering        Filtering        Recommendations
+        |              |              |
+        +--------------+--------------+
+                       |
+                       v
+            Weighted Score Combination
+                       |
+                       v
+              Final Recommendations
 ---
 
 ## Section 1: Introduction
