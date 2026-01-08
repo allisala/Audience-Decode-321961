@@ -96,7 +96,8 @@ The temporal analysis revealed that user preferences do evolve over time. Users 
 
 The following figures illustrate the most important findings from the exploratory data analysis. Each visualization reveals key patterns about user behavior, content characteristics, and platform dynamics.
 
-![Overall Rating Distribution](images/eda_5_1_1_rating_distribution.png)
+<img width="940" height="533" alt="image" src="https://github.com/user-attachments/assets/f4a51c7b-cce7-4ae3-a8e3-f42ceb9bed53" />
+
 *Figure 1: Overall rating distribution across the platform. Most ratings (34.7%) are 4 stars, with rating 3 being second most popular. This positive skew suggests users are selective about what they watch or that the platform's content curation is effective. The low frequency of 1 and 2 star ratings indicates that users who don't like content may simply not rate it rather than giving negative feedback.*
 
 ![User Activity Distribution](images/figure_2_user_activity_distribution.png)
